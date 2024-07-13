@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ruleset>
+    <rule ref="PSR12">
+        <exclude name="PSR2.Files.EndFileNewline.NoneFound"/>
+        <exclude name="PSR2.Methods.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+        <exclude name="Squiz.Functions.MultiLineFunctionDeclaration.NewlineBeforeOpenBrace"/>
+        <exclude name="Generic.Files.LineLength.TooLong"/>
+    </rule>
+
+    <rule ref="Internal.NoCodeFound">
+      <severity>0</severity>
+    </rule>
+
+    <file>src</file>
+</ruleset>
